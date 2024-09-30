@@ -5,6 +5,7 @@ void	ft_ultimate_ft(int *********nbr)
 	*********nbr = 42;
 }
 
+/*
 int	main(void)
 {
 	int	a;
@@ -32,3 +33,4 @@ int	main(void)
 	printf("%d", a);
 	return 0;
 }
+*/
