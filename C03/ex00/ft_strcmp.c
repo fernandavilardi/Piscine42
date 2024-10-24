@@ -9,6 +9,7 @@ int	ft_strcmp(char *s1, char *s2)
 	return (s1[i] - s2[i]);
 }
 
+/*
 int	main(void)
 {
 	char*	first_str = "dcba";
@@ -19,3 +20,4 @@ int	main(void)
 	printf("Return value of strcmp(): %d", ft_strcmp(first_str, second_str));
 	return 0;
 }
+*/
