@@ -18,6 +18,7 @@ char	*ft_strcat(char *dest, char *scr)
 	}
 }
 
+/*
 int	main(void)
 {
 	char	dest[50] = "oi!";
@@ -27,3 +28,4 @@ int	main(void)
 	printf("dest: %s\n", dest);
 	return 0;
 }
+*/
