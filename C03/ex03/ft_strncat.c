@@ -6,25 +6,26 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	unsigned int	j = 0;
 
 	while (dest[i] != '\0')
-	i++;
+		i++;
+
+	while (src[j] != '\0' && j < nb)
 	{
-		while (src[j] != '\0' && j < nb)
-		{
-			dest[i] = src[j];
-			i++;
-			j++;
-		}
-		dest[i] = '\0';
-		return (dest);
+		dest[i] = src[j];
+		i++;
+		j++;
 	}
+	dest[i] = '\0';
+	return (dest);
 }
 
+/*
 int	main(void)
 {
-	char	dest[10] = "Gilmore ";
-	char	src[10] = "Girls";
-	char	*nb = ft_strncat(dest, src, 10);
+	char	dest[10] = "Girls ";
+	char	src[10] = "Gilmore";
+	char	*nb = ft_strncat(dest, src, 5);
 	
 	printf("%s", nb);
 	return 0;
 }
+*/
