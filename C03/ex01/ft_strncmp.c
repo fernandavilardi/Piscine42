@@ -22,7 +22,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	}
 }
 
-/*
+
 int	main(void)
 {
 	char	s1[15] = "abcde";
@@ -33,7 +33,6 @@ int	main(void)
 
 	printf("s1: %s\n", s1);
 	printf("s2: %s\n", s2);
-	printf("Return value(): %d", ft_strncmp(s1, s2, result));
+	printf("Return value(): %d", result);
 	return 0;
 }
-*/
