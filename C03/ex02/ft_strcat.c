@@ -7,15 +7,14 @@ char	*ft_strcat(char *dest, char *scr)
 
 	while (dest[i] != '\0')
 	i++;
+
+	while (scr[j] != '\0')
 	{
-		while (scr[j] != '\0')
-		{
-			dest [i + j] = scr[j];
-			j++;
-		}
-		dest[i + j] = '\0';
-		return (dest);
+		dest [i + j] = scr[j];
+		j++;
 	}
+	dest[i + j] = '\0';
+	return (dest);
 }
 
 /*
