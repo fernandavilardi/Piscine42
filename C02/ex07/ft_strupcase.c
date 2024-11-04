@@ -6,7 +6,7 @@ char	*ft_strupcase(char *str)
 	
 	while(str[i] != '\0')
 	{
-		if ((str[i] > 97) && (str[i] < 122))
+		if ((str[i] >= 97) && (str[i] <= 122))
 		str[i] = str[i] - 32;
 		i++;
 	}
@@ -16,7 +16,7 @@ char	*ft_strupcase(char *str)
 /*
 int	main(void)
 {
-	char	str[] = "hell is other people";
+	char	str[] = "aaaaazzzzzhell is other people";
 	
 	printf("%s", ft_strupcase(str));
 	return 0;
